@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<a target=_blank href=mypic.jpg > Login Screen shot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target=_blank href=mypic.jpg > <img src=mypic.jpg width=30 height=30  ></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target=_blank href=mypic.jpg > Login Screen shot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target=_blank href=mypic.jpg > <img src=mypic.jpg width=30 height=30  ></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Testing" duration-ms="4334" started-at="2018-07-14T21:10:17Z" finished-at="2018-07-14T21:10:21Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="3191" started-at="2018-07-14T21:10:17Z" finished-at="2018-07-14T21:10:20Z">
+      <class name="com.mt.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.mt.testcases.BankManagerLoginTest@4923ab24]" name="loginAsBankManager" duration-ms="3166" started-at="2018-07-14T17:10:17Z" finished-at="2018-07-14T17:10:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a target=_blank href=mypic.jpg > Login Screen shot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target=_blank href=mypic.jpg > <img src=mypic.jpg width=30 height=30  ></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.mt.testcases.BankManagerLoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Add Customer Test" duration-ms="1092" started-at="2018-07-14T21:10:20Z" finished-at="2018-07-14T21:10:21Z">
+      <class name="com.mt.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mt.testcases.AddCustomerTest@b7dd107]" name="setUp" is-config="true" duration-ms="7300" started-at="2018-07-14T17:10:10Z" finished-at="2018-07-14T17:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mt.testcases.AddCustomerTest@b7dd107]" name="addCustomer" duration-ms="1065" started-at="2018-07-14T17:10:20Z" data-provider="getData" finished-at="2018-07-14T17:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[matt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[simon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10018.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a target=_blank href=mypic.jpg > Login Screen shot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target=_blank href=mypic.jpg > <img src=mypic.jpg width=30 height=30  ></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mt.testcases.AddCustomerTest@b7dd107]" name="tearDown" is-config="true" duration-ms="1207" started-at="2018-07-14T17:10:21Z" finished-at="2018-07-14T17:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mt.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Testing -->
+</testng-results>
